@@ -1,3 +1,5 @@
+import { team1, team2, team3, team4, blog1, blog2, blog3 } from "../assets";
+
 export const navLinks = [
   {
     id: "home",
@@ -40,28 +42,28 @@ export const stats = [
 export const team = [
   {
     id: "team-1",
-    image: team (1),
+    image: team1,
     title: "Adebayo Kwame",
     role:
       "Project Manager",
   },
   {
     id: "team-2",
-    image: team (2),
+    image: team2,
     title: "100% Secured",
     role:
       "Promotions Manager",
   },
   {
     id: "team-3",
-    image: team (3),
+    image: team3,
     title: "Balance Transfer",
     role:
       "Graphics Desigher",
   },
   {
     id: "team-4",
-    image: team (4),
+    image: team4,
     title: "100% Secured",
     role:
       "Frontend Developer",
@@ -77,7 +79,7 @@ export const blog = [
       "In today's digital landscape, businesses are increasingly leveraging cloud technologies to enhance their operations. In this blog post, we will explore the transformative journey of E-commerce Empire, a thriving online retail company that partnered with TechProCraft to migrate their infrastructure to the cloud and optimize their systems for unprecedented growth and scalability.",
     name: "Llyn Ryan",
     title: "Cloud solution Architect @ TechProcraft",
-    img: blog (1),
+    img: blog1,
   },
   {
     id: "blog-2",
@@ -85,7 +87,7 @@ export const blog = [
       "In today's digital landscape, businesses are increasingly leveraging cloud technologies to enhance their operations. In this blog post, we will explore the transformative journey of E-commerce Empire, a thriving online retail company that partnered with TechProCraft to migrate their infrastructure to the cloud and optimize their systems for unprecedented growth and scalability.",
     name: "Emily Weaver",
     title: "Visual/Interactive Designer @ TechProcraft",
-    img: blog (2),
+    img: blog2,
   },
   {
     id: "blog-3",
@@ -93,6 +95,6 @@ export const blog = [
       "In today's digital landscape, businesses are increasingly leveraging cloud technologies to enhance their operations. In this blog post, we will explore the transformative journey of E-commerce Empire, a thriving online retail company that partnered with TechProCraft to migrate their infrastructure to the cloud and optimize their systems for unprecedented growth and scalability.",
     name: "Kenn Gallagher",
     title: "Android OS Developer @ TechProcraft",
-    img: blog (3),
+    img: blog3,
   },
 ];

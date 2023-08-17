@@ -1,10 +1,8 @@
-
+import { Navbar, Hero, AboutUs, Stats, Features, Team, Jobs, Projects, Blog, Newsletter, Contact, Footer } from "./components";
 
 
 const App = () => (
-  <div>
-  App
-  </div>
+  
 );
 
 export default App
