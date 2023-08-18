@@ -1,5 +1,6 @@
 import { team1, team2, team3, team4, blog1, blog2, blog3 } from "../assets";
 
+
 export const navLinks = [
   {
     id: "home",
