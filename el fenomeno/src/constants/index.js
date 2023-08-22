@@ -1,4 +1,4 @@
-import { team1, team2, team3, team4, blog1, blog2, blog3 } from "../assets";
+//import team1 from "../assets/team1.png";
 
 
 export const navLinks = [
@@ -40,7 +40,7 @@ export const stats = [
 ];
 
 
-export const team = [
+/*export const team = [
   {
     id: "team-1",
     image: team1,
@@ -98,4 +98,4 @@ export const blog = [
     title: "Android OS Developer @ TechProcraft",
     img: blog3,
   },
-];
+];*/
