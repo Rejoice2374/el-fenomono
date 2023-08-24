@@ -78,6 +78,17 @@
   );
 }
 
+#Hero {
+  background-image: url(./assets/Hero.png);
+  display: flex;
+  width: 1734px;
+  height: 990px;
+  object-fit: cover;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+}
+
 .bg-gray-gradient {
   background: linear-gradient(
     153.47deg,
@@ -140,7 +151,6 @@
 
 .blue__gradient {
   background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
-  filter: blur(123px);
 }
 
 .pink__gradient {
