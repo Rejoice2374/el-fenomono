@@ -9,7 +9,7 @@ const App = () => (
       </div>
     </div>
 
-    <div id="Hero" className={`${styles.flexStart} -mt-20`}>
+    <div className={`${styles.flexStart} Hero -mt-20`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
       </div>
