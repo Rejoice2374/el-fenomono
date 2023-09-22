@@ -1,4 +1,4 @@
-import { Navbar, Hero, AboutUs, Stats, Features, Team, Jobs, Projects, Blog, Newsletter, Contact, Footer } from "./components";
+import { Navbar, Hero, Welcome, AboutUs, Testimonial, Features, Team, Jobs, Projects, Blog, Newsletter, Contact, Footer } from "./components";
 import styles from './style';
 
 const App = () => (
@@ -17,17 +17,26 @@ const App = () => (
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <AboutUs />
-        <Stats />
-        <Features />
-        <Team />
-        <Jobs />
-        <Projects />
-        <Blog />
-        <Newsletter />
-        <Contact />
-        <Footer />
+        <Welcome />
       </div>
+    </div>
+
+    <div className={`${styles.flexCenter}`} >
+      <div className={`${styles.boxWidth}`}>
+      <AboutUs />
+      </div>
+    </div>
+
+    <div>
+      <Jobs />
+      <Testimonial />
+      <Team />
+      <Features />
+      <Projects />
+      <Blog />
+      <Newsletter />
+      <Contact />
+      <Footer />
     </div>
   </div>
 );

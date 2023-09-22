@@ -63,6 +63,24 @@
   flex-shrink: 0;
 }
 
+.box1 {
+  display: flex;
+  width: 214px;
+  height: 64px;
+  padding: 16px;
+  border-radius: 12px;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.bg-vector {
+  background-image: url(./assets/Vector.svg);
+  background-size: cover;
+  width: 452.5px;
+  height: 141px;
+  flex-shrink: 0;
+}
+
 .bg-black-gradient {
   background: linear-gradient(
     144.39deg,
@@ -99,6 +117,20 @@
   justify-content: flex-end;
   align-items: center;
   flex-shrink: 0;
+}
+
+.offerings {
+  background-image: url(./assets/about_us.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 242px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.bg-gray {
+  background: #f4f1f1e7;
 }
 
 .bg-gray-gradient {
