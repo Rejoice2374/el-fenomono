@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -53,8 +62,6 @@
 
 .box {
   display: flex;
-  width: 214px;
-  height: 64px;
   padding: 16px;
   background-color: transparent;
   border: 3px solid rgb(36, 153, 243);
@@ -120,13 +127,13 @@
 }
 
 .offerings {
-  background-image: url(./assets/about_us.png);
+  background:linear-gradient(180deg, #1B1B1F 0%, rgba(22, 68, 130, 0.00) 164.67%), url('./assets/about_us.png'); 
+  ;
   background-size: cover;
   background-position: center;
-  display: flex;
+  background-size: cover;
   height: 242px;
-  align-items: center;
-  flex-shrink: 0;
+  width: auto;  
 }
 
 .bg-gray {
@@ -205,4 +212,12 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+.btn__border {
+  border-width: 4px;
+  border-image: url(./assets/border.png) 30 30 repeat;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 16px;
 }

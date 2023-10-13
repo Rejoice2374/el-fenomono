@@ -3,11 +3,11 @@ import avatar1 from "../assets/Avatar1.png";
 
 const Testimonial = () => (
   <section className="bg-secondary">
-    <div className="sm:p-[6rem] p-[4rem]">
+    <div className="sm:p-[6rem] xs:p-[4rem] p-[2rem]">
       <h2 className={`${styles.heading2}`}>Testimonials: What our clients say about Us</h2>
       <div className={`test__container`}>
-        <article className="flex flex-col justify-center items-center test bg-white sm:p-[4rem] p-[2rem] hover:drop-shadow-lg rounded-xl">
-          <div className="sm:p-[2rem]">
+        <article className="flex flex-col justify-center items-center test bg-white sm:p-[4rem] xs:p-[2rem] p-[1rem] hover:drop-shadow-lg rounded-xl">
+          <div className="sm:p-[2rem] p-[1rem]">
             <div className="flex md:flex-row flex-col gap-4">
               <div className="block cover">
                 <img src={avatar1} className="max-w-[6rem] h-[6rem]"/>

@@ -35,6 +35,9 @@ const App = () => (
       <Projects />
       <Blog />
       <Newsletter />
+    </div>
+
+    <div className="relative">
       <Contact />
       <Footer />
     </div>
