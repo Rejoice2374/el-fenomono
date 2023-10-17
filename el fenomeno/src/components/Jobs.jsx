@@ -9,8 +9,8 @@ import { UilAngleRightB } from "@iconscout/react-unicons";
 const Jobs = () => (
     <section className={`sm:p-[6rem] xs:p-[4rem] p-[2rem]`}>
       <h2 className="font-poppins font-semibold ss:text-[48px] text-[24px] ss:leading-[76.8px] leading-[66.8px] w-full">What we do</h2>
-      <p className="font-poppins font-normal ss:text-[24px] text-[16px] leading-[30.8px]">Unleashing the Power of Technology for Your Business Success <br /> <span className='ss:text-[24px] text-[16px] text-gray-600'>Take a look at our range of services</span></p>
-      <div className='grid ss:grid-cols-2 grid-cols-1 mt-[3rem] gap-[2rem]'>
+      <p className="font-poppins font-normal ss:text-[24px] text-[16px] ">Unleashing the Power of Technology for Your Business Success <br /> <span className='ss:text-[24px] text-[16px] text-gray-600'>Take a look at our range of services</span></p>
+      <div className='grid ss:grid-cols-2 grid-cols-1 ss:mt-[3rem] mt-[1rem] gap-[2rem]'>
         <article className='bg-primary text-center rounded-xl hover:drop-shadow-lg'>
           <div className='w-[100%] block object-cover'>
             <img src={feature1} />

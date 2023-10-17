@@ -1,4 +1,4 @@
-import styles from "../style";
+
 import why from "../assets/why.png";
 import  plane from "../assets/plane.svg";
 import clock from "../assets/clock.svg"
@@ -9,9 +9,9 @@ const AboutUs = () => (
   <section className={`flex md:flex-row flex-col bg-gray-gradient`}>
     <div className={`flex flex-col md:w-[860px] w-full xs:items-start items-center gap-2 xs:space-x-10`}>
       <div className="sm:ml-16 md:mt-10 mt-2">
-        <h2 className="font-poppins font-semibold xs:text-[36px] text-[16px] xs:leading-[52.8px] leading-[36.8px] text-white w-full">Why Choose Us?</h2>
+        <h2 className="font-poppins font-semibold xs:text-[36px] text-[16px] text-white w-full">Why Choose Us?</h2>
       </div>
-      <div className='grid sm:grid-cols-2 grid-cols-1 m-[1.5rem] sm:gap-[4rem] gap-[2rem]'>
+      <div className='grid sm:grid-cols-2 grid-cols-1 ss:m-[1.5rem] m-[1rem] sm:gap-[4rem] gap-[2rem]'>
         <article className="flex flex-row gap-2">
           <div className='w-[32px] h-[32px] block object-cover'>
               <img src={star} />
@@ -51,7 +51,7 @@ const AboutUs = () => (
       </div>
     </div>
 
-    <div className={`flex-1 md:flex hidden ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 h-fit w-fit relative`}>
+    <div className={`md:flex hidden md:ml-10 ml-0 md:mt-0 mt-10 cover`}>
         <img src={why}/>
     </div>
   </section>

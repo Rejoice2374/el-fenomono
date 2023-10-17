@@ -70,15 +70,18 @@
   flex-shrink: 0;
 }
 
+.box:hover {
+  border: transparent;
+}
+
 .box1 {
   display: flex;
-  width: 214px;
-  height: 64px;
   padding: 16px;
   border-radius: 12px;
   gap: 8px;
   flex-shrink: 0;
 }
+
 
 .bg-vector {
   background-image: url(./assets/Vector.svg);
@@ -120,7 +123,6 @@
   background-size: cover;
   background-position: center;
   display: flex;
-  height: 990px;
   justify-content: flex-end;
   align-items: center;
   flex-shrink: 0;
@@ -131,7 +133,6 @@
   ;
   background-size: cover;
   background-position: center;
-  background-size: cover;
   height: 242px;
   width: auto;  
 }
