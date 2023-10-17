@@ -1,4 +1,4 @@
-import { Navbar, Hero, Welcome, AboutUs, Testimonial, Features, Team, Jobs, Projects, Blog, Newsletter, Contact, Footer } from "./components";
+import { Navbar, Hero, Welcome, AboutUs, Testimonial, Features, Team, Jobs, Projects, Blog, Newsletter, Footer } from "./components";
 import styles from './style';
 
 const App = () => (
@@ -35,10 +35,6 @@ const App = () => (
       <Projects />
       <Blog />
       <Newsletter />
-    </div>
-
-    <div className="relative">
-      <Contact />
       <Footer />
     </div>
   </div>

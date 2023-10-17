@@ -4,7 +4,7 @@ const Newsletter = () => (
     <section className="offerings flex flex-col justify-center items-center gap-4">
         <h2 className={`font-roboto font-semibold md:text-[42px] text-[36px] text-white`}>Subscribe Newsletter</h2>
         <form>
-            <div className="flex sm:w-[474px] w-[120px]">
+            <div className="flex sm:w-[474px]">
               <input
                 type="text"
                 className="flex-1 px-[32px] py-[16px] rounded-l-lg focus:outline-none"
