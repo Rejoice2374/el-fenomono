@@ -9,7 +9,7 @@ const AboutUs = () => (
   <section className={`flex md:flex-row flex-col bg-gray-gradient`}>
     <div className={`flex flex-col md:w-[860px] w-full xs:items-start items-center gap-2 xs:space-x-10`}>
       <div className="sm:ml-16 md:mt-10 mt-2">
-        <h2 className="font-poppins font-semibold xs:text-[36px] text-[16px] text-white w-full">Why Choose Us?</h2>
+        <h2 className="font-nunito font-semibold xs:text-[36px] text-[16px] text-white w-full">Why Choose Us?</h2>
       </div>
       <div className='grid sm:grid-cols-2 grid-cols-1 ss:m-[1.5rem] m-[1rem] sm:gap-[4rem] gap-[2rem]'>
         <article className="flex flex-row gap-2">
@@ -17,8 +17,8 @@ const AboutUs = () => (
               <img src={star} />
           </div>
           <div>
-              <h4 className="font-poppins font-semibold xs:text-[20px] text-[16px] xs:leading-[26.8px] leading-[18.8px] text-white w-full">Reliabilty</h4>
-              <p className={`font-poppins font-normal xs:text-[18px] text-[16px] text-white`}>24-hour turnaround time</p>
+              <h4 className="font-nunito font-semibold xs:text-[20px] text-[16px] xs:leading-[26.8px] leading-[18.8px] text-white w-full">Reliabilty</h4>
+              <p className={`font-nunito font-normal xs:text-[18px] text-[16px] text-white`}>24-hour turnaround time</p>
           </div>
         </article>
         <article className="flex flex-row gap-2">
@@ -26,8 +26,8 @@ const AboutUs = () => (
               <img src={clock} />
           </div>
           <div>
-              <h4 className="font-poppins font-semibold xs:text-[20px] text-[16px] xs:leading-[26.8px] leading-[18.8px] text-white w-full">Shortest Lead Time</h4>
-              <p className={`font-poppins font-normal xs:text-[18px] text-[16px] text-white`}>We find Candidate at the fastest pace</p>
+              <h4 className="font-nunito font-semibold xs:text-[20px] text-[16px] xs:leading-[26.8px] leading-[18.8px] text-white w-full">Shortest Lead Time</h4>
+              <p className={`font-nunito font-normal xs:text-[18px] text-[16px] text-white`}>We find Candidate at the fastest pace</p>
           </div>
         </article>
         <article className="flex flex-row gap-2">
@@ -35,8 +35,8 @@ const AboutUs = () => (
               <img src={plane} />
           </div>
           <div>
-              <h4 className="font-poppins font-semibold xs:text-[20px] text-[16px] xs:leading-[26.8px] leading-[18.8px] text-white w-full">Result - Driven</h4>
-              <p className={`font-poppins font-normal xs:text-[18px] text-[16px] text-white`}>100% Client retention</p>
+              <h4 className="font-nunito font-semibold xs:text-[20px] text-[16px] xs:leading-[26.8px] leading-[18.8px] text-white w-full">Result - Driven</h4>
+              <p className={`font-nunito font-normal xs:text-[18px] text-[16px] text-white`}>100% Client retention</p>
           </div>
         </article>
         <article className="flex flex-row gap-2">
@@ -44,8 +44,8 @@ const AboutUs = () => (
               <img src={phone} />
           </div>
           <div>
-              <h4 className="font-poppins font-semibold xs:text-[20px] text-[16px] xs:leading-[26.8px] leading-[18.8px] text-white w-full">Most Competitive Rate</h4>
-              <p className={`font-poppins font-normal xs:text-[18px] text-[16px] text-white`}>We are the most affordable consulting and <br className="sm:hidden block"/>recruitment agency across Africa</p>
+              <h4 className="font-nunito font-semibold xs:text-[20px] text-[16px] xs:leading-[26.8px] leading-[18.8px] text-white w-full">Most Competitive Rate</h4>
+              <p className={`font-nunito font-normal xs:text-[18px] text-[16px] text-white`}>We are the most affordable consulting and <br className="sm:hidden block"/>recruitment agency across Africa</p>
           </div>
         </article>
       </div>
